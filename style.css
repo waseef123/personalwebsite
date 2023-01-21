@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding-top:980px;
+text-align:center;
+}
+.profile {
+    border-radius:50%;
+padding-top:30px;
+}
+#welcome{
+position:absolute;
+top:0;
+background:linear-gradient(#60ebeb 0%, #27ae60 100%);
+display:table;
+width:100%;
+height:79%;
+
+}
+h1{
+    font-size: 40px;
+    font-family:sans-serif;
+    font-weight:300;
+}
+#name{
+    font-size:50px;
+    font-family:cursive;
+}
+h2{
+    font-size:30px;
+    font-weight:300;
+    font-family:monospace;
+
+}
+#bio{
+    font-family:cursive;
+    padding:50px;
+}
+.line{
+    height:6px;
+    background-color: black;
+    width:70px;
+    margin: 8px auto;
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+.menu{
+    list-style:none;
+    position:fixed;
+    top:0px;
+    width:100%;
+    margin-top:0px;
+    z-index:10;
+cursor: pointer;
+}
+.links{
+display:inline;
+padding-top:5px;
+padding-left:9px;
+padding-right:10px;
+padding-bottom:5px;
+font-family:cursive;
+font-size:20px;
+color:black;
+
+
+}
+
+a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);  
+   
+}
+#write a{
+color:goldenrod;
+text-decoration:underline !important;
+}
+#contact{
+    background-color:wheat;
+}
+.links:hover
+{
+    font-size:25px;
+    text-decoration:underline;
+}
+.menu{
+background-color:aqua;
+}
+.contact1 h3{
+    display:inline;
+}
